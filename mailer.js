@@ -6,18 +6,14 @@ const OAuth2 = google.Auth.OAuth2Client;
 import nodemailer from 'nodemailer';
 
 export function createTransporter() {
-    console.log(typeof(process.env.ENVIRONMENT));
-    console.log(process.env.ENVIRONMENT == "PROD");
     try {
         if(process.env.ENVIRONMENT == "DEV") {
-            console.log("Dev transporter")
             let transporter = nodemailer.createTransport({
                 jsonTransport: true
             });
             return transporter;
         }
         else if(process.env.ENVIRONMENT == "PROD") {
-            console.log("Prod transporter")
             const oauth2Client = new OAuth2(
                 process.env.CLIENT_ID,
                 process.env.CLIENT_SECRET,
@@ -64,7 +60,6 @@ export async function sendContactEmail(request, mailer) {
                 return resolve(200);
             } else {
                 if(process.env.ENVIRONMENT == "DEV") {
-                    console.log("Dev mailer")
                     var today = new Date();
                     var date = (today.getMonth()+1) + '-' + today.getDate() + '-' + today.getFullYear();
                     var time = today.getHours() + "-" + today.getMinutes() + "-" + today.getSeconds();
