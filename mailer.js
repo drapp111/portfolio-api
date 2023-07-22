@@ -6,6 +6,7 @@ const OAuth2 = google.Auth.OAuth2Client;
 import nodemailer from 'nodemailer';
 
 export function createTransporter() {
+    console.log(process.env.ENVIRONMENT);
     try {
         if(process.env.ENVIRONMENT = "DEV") {
             let transporter = nodemailer.createTransport({
