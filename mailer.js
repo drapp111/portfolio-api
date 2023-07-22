@@ -8,13 +8,13 @@ import nodemailer from 'nodemailer';
 export function createTransporter() {
     console.log(process.env.ENVIRONMENT);
     try {
-        if(process.env.ENVIRONMENT = "DEV") {
+        if(process.env.ENVIRONMENT == "DEV") {
             let transporter = nodemailer.createTransport({
                 jsonTransport: true
             });
             return transporter;
         }
-        else if(process.env.ENVIRONMENT = "PROD") {
+        else if(process.env.ENVIRONMENT == "PROD") {
             const oauth2Client = new OAuth2(
                 process.env.CLIENT_ID,
                 process.env.CLIENT_SECRET,
