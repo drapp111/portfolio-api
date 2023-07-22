@@ -8,7 +8,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  run_pull:
+  integrate:
 
     runs-on: ubuntu-latest
     
