@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "build" : "npm install",
+    "test" : "echo 'This is a test'",
     "start": "node index.js"
   },
   "author": "Declan Rapp",
