@@ -8,7 +8,7 @@ on:
     branches: [ "dev" ]
 
 jobs:
-  build:
+  deploy:
 
     runs-on: ubuntu-latest
     environment: Development
@@ -42,8 +42,6 @@ jobs:
         destination_branch: ${{ github.event.repository.default_branch }}
         pr_title: "[Automated] Merge ${{ github.ref_name }} into ${{ github.event.repository.default_branch }}"
         pr_body: "Automated Pull Request"
-        pr_reviewer: "${{ secrets.ASSIGNEE }}"
-        pr_assignee: "${{ secrets.ASSIGNEE }}"
 
     # https://github.com/marketplace/actions/enable-pull-request-automerge
     - name: enable automerge
