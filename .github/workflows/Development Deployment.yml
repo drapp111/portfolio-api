@@ -50,7 +50,7 @@ jobs:
       if: steps.open-pr.outputs.pr_number != ''
       uses: peter-evans/enable-pull-request-automerge@v2
       with:
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.INTEGRATIONS_TOKEN }}
         pull-request-number: ${{ steps.open-pr.outputs.pr_number }}
         merge-method: merge
 
