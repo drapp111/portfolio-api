@@ -2,11 +2,10 @@ name: Production Deployment
 
 on:
     push:
-        branches : [prod]
+        branches : [ prod ]
   
 jobs:
     deploy_main:
-      name: Create PR Release to Main
       runs-on: ubuntu-latest
       environment: Production
       steps:
