@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "API for portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build" : "npm install",
+    "start": "node index.js"
+  },
+  "author": "Declan Rapp",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^122.0.0",
+    "nodemailer": "^6.9.3",
+    "pg": "^8.11.1",
+    "pg-promise": "^11.5.0",
+    "step": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
