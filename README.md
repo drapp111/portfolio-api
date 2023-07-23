@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/drapp111/portfolio-api">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Custom Portfolio Website Backend</h3>
@@ -180,7 +180,7 @@ Project Link: [https://github.com/drapp111/portfolio-api](https://github.com/dra
 [issues-shield]: https://img.shields.io/github/issues/drapp111/portfolio-api.svg?style=for-the-badge
 [issues-url]: https://github.com/drapp111/portfolio-api/issues
 [license-shield]: https://img.shields.io/github/license/drapp111/portfolio-api.svg?style=for-the-badge
-[license-url]: https://github.com/drapp111/portfolio-api/blob/master/LICENSE.txt
+[license-url]: https://github.com/drapp111/portfolio-api/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/declanrapp
 [product-screenshot]: images/screenshot.png
