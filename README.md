@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/drapp111/portfolio-api">
+  <a href="https://github.com/drapp111/portfolio-backend">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,14 +39,14 @@
   <p align="center">
     A backend API for my custom portfolio website.
     <br />
-    <a href="https://github.com/drapp111/portfolio-api"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/drapp111/portfolio-backend"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://declanrappdesign.com">View Site</a>
     ·
-    <a href="https://github.com/drapp111/portfolio-api/issues">Report Bug</a>
+    <a href="https://github.com/drapp111/portfolio-backend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/drapp111/portfolio-api/issues">Request Feature</a>
+    <a href="https://github.com/drapp111/portfolio-backend/issues">Request Feature</a>
   </p>
 </div>
 
@@ -78,7 +78,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://declanrappdesign.com)
 
-Welcome to the API and Server portion of my custom lighting design website project! In this section, I'll give you a brief overview of how the backend of my custom portfolio website is structured and the technologies used to ensure seamless functionality.
+Welcome to the backend portion of my custom lighting design website project! In this section, I'll give you a brief overview of how the backend is structured and the technologies used to ensure seamless functionality.
 
 🌐 Backend API with Express:
 The backend API is the backbone of the website, responsible for handling database interactions and email functionality. Developed using Express, a fast and flexible Node.js framework, it provides a robust and efficient platform for managing data and serving requests from the frontend.
@@ -126,7 +126,7 @@ Your feedback and contributions are highly appreciated as I continue to enhance 
 - [ ] Allow public access
     - [ ] Eventually open up some routes publicly, just for fun
 
-See the [open issues](https://github.com/drapp111/portfolio-api/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/drapp111/portfolio-backend/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +164,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Declan Rapp - declanrapp@gmail.com
 
-Project Link: [https://github.com/drapp111/portfolio-api](https://github.com/drapp111/portfolio-api)
+Project Link: [https://github.com/drapp111/portfolio-backend](https://github.com/drapp111/portfolio-backend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,20 +188,20 @@ Project Link: [https://github.com/drapp111/portfolio-api](https://github.com/dra
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/drapp111/portfolio-api.svg?style=for-the-badge
-[contributors-url]: https://github.com/drapp111/portfolio-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/drapp111/portfolio-api.svg?style=for-the-badge
-[forks-url]: https://github.com/drapp111/portfolio-api/network/members
-[stars-shield]: https://img.shields.io/github/stars/drapp111/portfolio-api.svg?style=for-the-badge
-[stars-url]: https://github.com/drapp111/portfolio-api/stargazers
-[issues-shield]: https://img.shields.io/github/issues/drapp111/portfolio-api.svg?style=for-the-badge
-[issues-url]: https://github.com/drapp111/portfolio-api/issues
-[license-shield]: https://img.shields.io/github/license/drapp111/portfolio-api.svg?style=for-the-badge
-[license-url]: https://github.com/drapp111/portfolio-api/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/drapp111/portfolio-backend.svg?style=for-the-badge
+[contributors-url]: https://github.com/drapp111/portfolio-backend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/drapp111/portfolio-backend.svg?style=for-the-badge
+[forks-url]: https://github.com/drapp111/portfolio-backend/network/members
+[stars-shield]: https://img.shields.io/github/stars/drapp111/portfolio-backend.svg?style=for-the-badge
+[stars-url]: https://github.com/drapp111/portfolio-backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/drapp111/portfolio-backend.svg?style=for-the-badge
+[issues-url]: https://github.com/drapp111/portfolio-backend/issues
+[license-shield]: https://img.shields.io/github/license/drapp111/portfolio-backend.svg?style=for-the-badge
+[license-url]: https://github.com/drapp111/portfolio-backend/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/declanrapp
 [product-screenshot]: site-screenshot.png
-[Express.js]: https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white
+[Express.js]: https://img.shields.io/badge/Express-20232A?style=for-the-badge&logo=express&logoColor=white
 [Express-url]: https://expressjs.com/
 [Postgres]: https://img.shields.io/badge/Postgres-20232A?style=for-the-badge&logo=postgresql&logoColor=61DAFB
 [Postgres-url]: https://www.postgresql.org/docs/
