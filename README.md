@@ -78,7 +78,24 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://declanrappdesign.com)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Welcome to the API and Server portion of my custom lighting design website project! In this section, I'll give you a brief overview of how the backend of my custom portfolio website is structured and the technologies used to ensure seamless functionality.
+
+🌐 Backend API with Express:
+The backend API is the backbone of the website, responsible for handling database interactions and email functionality. Developed using Express, a fast and flexible Node.js framework, it provides a robust and efficient platform for managing data and serving requests from the frontend.
+
+💾 PostgreSQL Database:
+To store and manage data, I've integrated a PostgreSQL database with the backend API. PostgreSQL is a powerful, open-source relational database that ensures data integrity and provides excellent support for complex queries.
+
+📧 Gmail Integration:
+Staying connected with site visitors is crucial. That's why I've integrated Google OAuth and the Gmail API to enable email functionalities. Visitors can easily interact with the website and send feedback/requests through a contact form.
+
+🖥️ Nginx on Linux Server with SSL:
+To serve the website securely and optimize its performance, I've set up a custom Linux server on a personal Raspberry Pi, with Nginx as a reverse proxy. Nginx efficiently handles incoming requests and acts as a gateway to the backend API. SSL is also configured, ensuring all data exchanged is encrypted and secure.
+
+🔁 Continuous Integration and Deployment (CI/CD):
+Making updates and deploying changes should be a breeze, which is why I've established a seamless CI/CD pipeline using GitHub Actions. This system automates testing and deployment processes, ensuring a smooth and reliable development workflow.
+
+Your feedback and contributions are highly appreciated as I continue to enhance and refine the API and server setup.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +200,7 @@ Project Link: [https://github.com/drapp111/portfolio-api](https://github.com/dra
 [license-url]: https://github.com/drapp111/portfolio-api/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/declanrapp
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: site-screenshot.png
 [Express.js]: https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white
 [Express-url]: https://expressjs.com/
 [Postgres]: https://img.shields.io/badge/Postgres-20232A?style=for-the-badge&logo=postgresql&logoColor=61DAFB
