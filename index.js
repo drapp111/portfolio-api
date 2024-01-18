@@ -9,7 +9,7 @@ import cors from 'cors';
 const mailer = createTransporter();
 const app = express ();
 app.use(cors({
-  origin: process.env.CORS_ORIGIN
+
 }));
 
 app.listen(process.env.PORT, () => {
