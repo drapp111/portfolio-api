@@ -16,7 +16,7 @@ app.listen(process.env.PORT, () => {
     console.log("Server Listening on PORT:", process.env.PORT);
   });
 
-app.get("/status", (request, response) => {
+app.get("/", (request, response) => {
     const status = {
         "Status": 200
     };
