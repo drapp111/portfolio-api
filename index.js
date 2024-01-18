@@ -6,6 +6,7 @@ import {retrieveReferenceOptions, logContactEmail, retrieveImages, retrievePageT
 import cors from 'cors';
 
 //Constants
+const express = require('express');
 const mailer = createTransporter();
 const app = express ();
 app.use(cors({
@@ -63,3 +64,5 @@ app.get("/status", (request, response) => {
  app.get("/kelsey", (request, response) => {
   response.send('<div><div>From the moment I met you, I knew that I was in love with you</div><div>From the time I brought you ice at midnight, I knew that I would marry you</div><div>I am yours</div><div>Forever</div></div>')
  })
+
+ module.exports = app;
