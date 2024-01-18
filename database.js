@@ -1,7 +1,7 @@
 import pg from 'pg'
 
 const pool = new pg.Pool({
-    connectionString: process.env.DB_URL + "?sslmode=require",
+    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
   })
 
 const EMAIL_SUBMISSION_QUERY_TEXT = `INSERT INTO public.email_submissions(
