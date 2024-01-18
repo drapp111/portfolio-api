@@ -6,7 +6,6 @@ import {retrieveReferenceOptions, logContactEmail, retrieveImages, retrievePageT
 import cors from 'cors';
 
 //Constants
-const express = require('express');
 const mailer = createTransporter();
 const app = express ();
 app.use(cors({
