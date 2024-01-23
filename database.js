@@ -19,7 +19,7 @@ export async function retrieveReferenceOptions() {
 
 export async function retrieveImages(request) {
     try {
-        var images = await pool.query('SELECT ID, PATH, ALT, PRIORITY FROM PORTFOLIO_IMAGES WHERE SHOW = (SELECT ID FROM SHOWS WHERE SHOW_NAME = $1) ORDER BY PRIORITY ASC', [request.query.show_name]);
+        var images = await pool.query('SELECT ID, PATH, EXTENSION, ALT, PRIORITY FROM PORTFOLIO_IMAGES WHERE SHOW = (SELECT ID FROM SHOWS WHERE SHOW_NAME = $1) ORDER BY PRIORITY ASC', [request.query.show_name]);
         return images.rows;
     } catch(error) {
         console.log(error);
@@ -38,7 +38,7 @@ export async function retrievePageText(request) {
 
 export async function retrieveShows() {
     try {
-        var shows = await pool.query('SELECT ID, (SELECT SHOW_NAME FROM SHOWS WHERE ID=SHOW) AS SHOW_NAME, TITLE, SUBTITLE, DESCRIPTION, IMAGE, DATES, STATUS FROM PORTFOLIO_TEXT ORDER BY PRIORITY ASC');
+        var shows = await pool.query('SELECT ID, (SELECT SHOW_NAME FROM SHOWS WHERE ID=SHOW) AS SHOW_NAME, TITLE, SUBTITLE, DESCRIPTION, IMAGE, DATES, STATUS, IMAGE_EXTENSION FROM PORTFOLIO_TEXT ORDER BY PRIORITY ASC');
         return shows.rows;
     } catch(error) {
         console.log(error);
