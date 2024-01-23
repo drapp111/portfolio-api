@@ -32,7 +32,7 @@ export async function retrieveImages(request) {
 
 export async function retrievePageText(request) {
     try {
-        var page_text = await pool.query('SELECT ID, TITLE, SUBTITLE, DESCRIPTION, IMAGE, DATES, PHOTOGRAPHER, PHOTOGRAPHER_HANDLE, IMAGE_EXTENSION STATUS FROM PORTFOLIO_TEXT WHERE SHOW = (SELECT ID FROM SHOWS WHERE SHOW_NAME = $1)', [request.query.show_name]);
+        var page_text = await pool.query('SELECT ID, TITLE, SUBTITLE, DESCRIPTION, IMAGE, DATES, PHOTOGRAPHER, PHOTOGRAPHER_HANDLE, IMAGE_EXTENSION, STATUS FROM PORTFOLIO_TEXT WHERE SHOW = (SELECT ID FROM SHOWS WHERE SHOW_NAME = $1)', [request.query.show_name]);
         return page_text.rows;
     } catch(error) {
         console.log(error);
